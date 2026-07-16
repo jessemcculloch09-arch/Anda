@@ -1,99 +1,72 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Andá — surf, skate and culture." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Andá — Shop the Drop</title>
+  <meta name="description" content="Andá surf, skate and culture.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
-    <nav class="nav wrap">
-      <a class="brand" href="#top" aria-label="Andá home">
-        <img src="assets/anda-logo.png" alt="Andá" />
-      </a>
-      <a class="nav-link" href="#shop">Shop</a>
-    </nav>
-
-    <div class="hero-overlay"></div>
-
-    <section class="hero-content wrap" id="top">
-      <img class="hero-logo" src="assets/anda-logo.png" alt="Andá" />
-      <p class="eyebrow">SURF · SKATE · CULTURE</p>
-      <h1>Go. Explore. Live.</h1>
-      <p class="hero-copy">A small first drop built for the coast, the street and wherever you head next.</p>
-      <a class="button button-light" href="#shop">Shop the drop</a>
-    </section>
+    <div class="hero-inner">
+      <img class="logo" src="assets/anda-logo.png" alt="Andá">
+      <p class="tagline">SURF · SKATE · CULTURE</p>
+      <a class="button" href="#shop">SHOP THE DROP</a>
+    </div>
   </header>
 
   <main>
-    <section class="shop wrap" id="shop">
-      <div class="section-heading">
-        <p class="eyebrow dark">FIRST DROP</p>
-        <h2>Shop</h2>
-        <p>Replace the sample prices and checkout links with your real ones whenever you are ready.</p>
+    <section id="shop" class="shop">
+      <div class="section-title">
+        <h1>SHOP</h1>
+        <span></span>
       </div>
 
-      <div class="product-grid">
-        <article class="product-card">
-          <img src="assets/gaucho-tee.jpg" alt="Andá Gaucho Tee" />
-          <div class="product-info">
-            <div>
-              <h3>Gaucho Tee</h3>
-              <p class="price">$35.00</p>
-            </div>
-            <a class="button buy-button" href="https://example.com" target="_blank" rel="noopener">Buy now</a>
-          </div>
+      <div class="products">
+        <article class="product">
+          <img src="assets/gaucho-tee.jpg" alt="Gaucho Tee">
+          <h2>GAUCHO TEE</h2>
+          <p>$35.00</p>
+          <a class="button small" href="https://example.com" target="_blank" rel="noopener">BUY NOW</a>
         </article>
 
-        <article class="product-card">
-          <img src="assets/tie-dye-tee.jpg" alt="Andá Skate Tie-Dye Tee" />
-          <div class="product-info">
-            <div>
-              <h3>Skate Tie-Dye Tee</h3>
-              <p class="price">$40.00</p>
-            </div>
-            <a class="button buy-button" href="https://example.com" target="_blank" rel="noopener">Buy now</a>
-          </div>
+        <article class="product">
+          <img src="assets/tie-dye-tee.jpg" alt="Skate Tie Dye Tee">
+          <h2>SKATE TIE DYE TEE</h2>
+          <p>$40.00</p>
+          <a class="button small" href="https://example.com" target="_blank" rel="noopener">BUY NOW</a>
         </article>
 
-        <article class="product-card">
-          <img src="assets/anda-hat.jpg" alt="Andá Trucker Hat" />
-          <div class="product-info">
-            <div>
-              <h3>Andá Trucker Hat</h3>
-              <p class="price">$30.00</p>
-            </div>
-            <a class="button buy-button" href="https://example.com" target="_blank" rel="noopener">Buy now</a>
-          </div>
+        <article class="product">
+          <img src="assets/anda-hat.jpg" alt="Andá Surf Co. Hat">
+          <h2>ANDÁ SURF CO. HAT</h2>
+          <p>$30.00</p>
+          <a class="button small" href="https://example.com" target="_blank" rel="noopener">BUY NOW</a>
         </article>
 
-        <article class="product-card">
-          <img src="assets/sticker-pack.jpg" alt="Andá Sticker Pack" />
-          <div class="product-info">
-            <div>
-              <h3>Sticker Pack</h3>
-              <p class="price">$10.00</p>
-            </div>
-            <a class="button buy-button" href="https://example.com" target="_blank" rel="noopener">Buy now</a>
-          </div>
+        <article class="product">
+          <img src="assets/sticker-pack.jpg" alt="Andá Sticker Pack">
+          <h2>ANDÁ STICKER PACK</h2>
+          <p>$10.00</p>
+          <a class="button small" href="https://example.com" target="_blank" rel="noopener">BUY NOW</a>
         </article>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="wrap footer-inner">
-      <img src="assets/anda-logo.png" alt="Andá" />
-      <p>Andá tu camino.</p>
-      <p class="small">© <span id="year"></span> Andá. All rights reserved.</p>
+    <div class="footer-content">
+      <p class="footer-script">Andá tu camino.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="mailto:hello@example.com" aria-label="Email">✉</a>
+      </div>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
